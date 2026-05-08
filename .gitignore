@@ -1,6 +1,5 @@
 .env
 secrets.conf
-ShakeTune_results
 toolchanger/readonly-configs/*.cfg
 *.swp
 *.tmp
