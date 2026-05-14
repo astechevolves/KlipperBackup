@@ -1,2 +1,0 @@
-# KlipperBackup
-Automated Klipper Backups
