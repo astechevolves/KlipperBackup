@@ -1,27 +1,17 @@
 /* Material-dark theme created by Alfredo Monclus 2021 */
-/* Modified custom theme colors for T0 through T4 toolhead matching */
-
 @define-color text #e2e2e2;
 @define-color bg #121212;
 @define-color buttons-bg #090909;
-
-/* Tool / button accent colors
- * T0 / extruder  -> color1
- * T1 / extruder1 -> color2
- * T2 / extruder2 -> color3
- * T3 / extruder3 -> color4
- * T4 / extruder4 -> color5
- */
-@define-color color1 #F54927;
-@define-color color2 #2C46F5;
-@define-color color3 #00AB32;
-@define-color color4 #F7B916;
-@define-color color5 #EDEDED;
+@define-color color1 #d46900;
+@define-color color2 #ed3c63;
+@define-color color3 #849900;
+@define-color color4 #007db4;
 
 @define-color echo #006412;
 @define-color warning #EF6C00;
 @define-color error #B71C1C;
-@define-color active #F54927;
+
+@define-color active #d46900;
 @define-color active-dark #282828;
 @define-color lines #a2a2a2;
 @define-color slider #d81549;
@@ -62,27 +52,22 @@ button.color4 {
     border-radius: 1em;
 }
 
-button.color5 {
-    background-color: @buttons-bg;
-    border-color: @color5;
-    border-radius: 1em;
-}
-
 .button_active {
     background-color: @active-dark;
     border-width: .25em;
     border-radius: 1em;
 }
 
+
 button:focus,
 button.color1:focus,
 button.color2:focus,
 button.color3:focus,
 button.color4:focus,
-button.color5:focus,
 button.update:focus,
 button.invalid:focus,
-.dialog button:focus {
+.dialog button:focus
+{
     outline: .1em dashed @active;
     outline-offset: .1em;
 }
@@ -92,7 +77,6 @@ button.color1:active,
 button.color2:active,
 button.color3:active,
 button.color4:active,
-button.color5:active,
 button.update:active,
 button.invalid:active,
 .dialog button:active {
@@ -136,7 +120,7 @@ switch:checked {
 }
 
 treeview.view check:checked {
-    -gtk-icon-source: url("./styles/astech-dark/images/complete.svg");
+    -gtk-icon-source: url("./styles/material-dark/images/complete.svg");
 }
 
 entry {
@@ -273,9 +257,9 @@ button.active {
 }
 
 .dialog-secondary {
-    border-bottom-color: @color2;
+     border-bottom-color: @color2;
 }
 
 .dialog-primary {
-    border-bottom-color: @color1;
+     border-bottom-color: @color1;
 }
