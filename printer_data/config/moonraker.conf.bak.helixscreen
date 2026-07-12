@@ -1,5 +1,3 @@
-[include helixscreen.conf]
-
 [server]
 host: 0.0.0.0
 port: 7125
@@ -122,14 +120,3 @@ origin: https://github.com/nic335/Axiscope.git
 primary_branch: main
 is_system_service: True
 managed_services: axiscope
-
-# HelixScreen Update Manager
-# Added by HelixScreen installer - enables one-click updates from Mainsail/Fluidd
-# NOTE: type: web is used instead of type: zip as a workaround for
-# mainsail-crew/mainsail#2444 (zip type always shows UP-TO-DATE).
-# A systemd path unit handles service restart after Moonraker extracts the update.
-[update_manager helixscreen]
-type: web
-channel: stable
-repo: prestonbrown/helixscreen
-path: /home/goofballtech/helixscreen
