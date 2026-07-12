@@ -1,2 +1,2 @@
 # KlipperBackup
-Automated Klipper Backups for Voron 2.4 StealtChanger
+Automated Klipper Backups for Voron 2.4 StealthChanger
