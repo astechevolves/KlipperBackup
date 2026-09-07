@@ -274,7 +274,7 @@
         }
       },
       "filament_sensors": {
-        "master_enabled": true,
+        "master_enabled": false,
         "sensors": [
           {
             "enabled": true,
@@ -292,6 +292,18 @@
             "enabled": true,
             "klipper_name": "filament_switch_sensor T2_filament_sensor",
             "role": "runout",
+            "type": "switch"
+          },
+          {
+            "enabled": true,
+            "klipper_name": "filament_switch_sensor T3_filament_sensor",
+            "role": "none",
+            "type": "switch"
+          },
+          {
+            "enabled": true,
+            "klipper_name": "filament_switch_sensor T4_filament_sensor",
+            "role": "none",
             "type": "switch"
           }
         ]
