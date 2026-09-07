@@ -1,17 +1,18 @@
 {
   "active_printer_id": "default",
   "appearance": {
-    "show_widget_labels": true,
-    "toolhead_style": 5
+    "show_widget_labels": true
   },
-  "config_version": 18,
+  "config_version": 23,
   "dark_mode": true,
   "display": {
     "bed_mesh_render_mode": 0,
     "dim_brightness": 30,
     "dim_sec": 600,
     "drm_device": "",
-    "gcode_render_mode": 0,
+    "gcode_render_mode": 3,
+    "gpu_3d_blocked": false,
+    "gpu_blur_blocked": false,
     "rotate": 90,
     "screensaver_type": 3,
     "sleep_sec": 1800,
@@ -46,118 +47,181 @@
     "protocol": "ipp"
   },
   "language": "en",
-  "led": {
-    "auto_state": {
-      "enabled": false
-    },
-    "selected_strips": false
-  },
-  "log_level": "info",
+  "log_level": "debug",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 1
+    "jog_mode": 2
   },
   "print_start_history": {
     "entries": [
       {
         "phases": {
-          "5": 410,
+          "2": 31,
+          "5": 281,
+          "9": 1
+        },
+        "temp_bucket": 1,
+        "timestamp": 1788571223,
+        "total": 343,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 35,
+          "5": 228,
+          "9": 48
+        },
+        "temp_bucket": 1,
+        "timestamp": 1788577570,
+        "total": 339,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 30,
+          "5": 408,
           "9": 11
         },
         "temp_bucket": 1,
-        "timestamp": 1783134376,
-        "total": 431
+        "timestamp": 1788617938,
+        "total": 476,
+        "window": 1
       },
       {
         "phases": {
-          "2": 44,
-          "5": 580,
-          "9": 10
+          "2": 18,
+          "5": 358
         },
         "temp_bucket": 1,
-        "timestamp": 1783179126,
-        "total": 645
+        "timestamp": 1788707359,
+        "total": 422,
+        "window": 1
       },
       {
         "phases": {
-          "5": 437,
-          "9": 18
+          "2": 31,
+          "5": 285,
+          "9": 11
         },
         "temp_bucket": 1,
-        "timestamp": 1783210756,
-        "total": 466
+        "timestamp": 1788716043,
+        "total": 355,
+        "window": 1
       },
       {
         "phases": {
-          "2": 13,
-          "5": 416,
-          "9": 14
+          "2": 34,
+          "5": 295,
+          "9": 1
         },
         "temp_bucket": 1,
-        "timestamp": 1783742856,
-        "total": 453
+        "timestamp": 1788735110,
+        "total": 356,
+        "window": 1
       },
       {
         "phases": {
-          "2": 19,
-          "5": 555,
-          "9": 10
+          "2": 34,
+          "5": 414,
+          "9": 12
         },
         "temp_bucket": 1,
-        "timestamp": 1783789830,
-        "total": 594
+        "timestamp": 1788741448,
+        "total": 525,
+        "window": 1
       },
       {
         "phases": {
-          "5": 269
+          "2": 17,
+          "5": 110
         },
         "temp_bucket": 2,
-        "timestamp": 1783184551,
-        "total": 279
+        "timestamp": 1788624365,
+        "total": 166,
+        "window": 1
       },
       {
         "phases": {
-          "2": 19,
-          "5": 173,
-          "9": 10
+          "2": 17,
+          "5": 107
         },
         "temp_bucket": 2,
-        "timestamp": 1783188571,
-        "total": 212
+        "timestamp": 1788628932,
+        "total": 163,
+        "window": 1
       },
       {
         "phases": {
-          "2": 14,
-          "5": 101,
-          "9": 10
+          "2": 28,
+          "5": 217,
+          "9": 11
         },
         "temp_bucket": 2,
-        "timestamp": 1783811558,
-        "total": 136
+        "timestamp": 1788642083,
+        "total": 299,
+        "window": 1
       },
       {
         "phases": {
-          "2": 16,
-          "5": 127,
-          "9": 10
+          "2": 31,
+          "5": 145
         },
         "temp_bucket": 2,
-        "timestamp": 1783814425,
-        "total": 163
+        "timestamp": 1788644737,
+        "total": 218,
+        "window": 1
       },
       {
         "phases": {
-          "5": 195,
+          "2": 30,
+          "5": 172,
+          "9": 84
+        },
+        "temp_bucket": 2,
+        "timestamp": 1788656137,
+        "total": 329,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 31,
+          "5": 180,
+          "9": 11
+        },
+        "temp_bucket": 2,
+        "timestamp": 1788660535,
+        "total": 259,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 27,
+          "5": 274,
           "9": 12
         },
         "temp_bucket": 2,
-        "timestamp": 1783820018,
-        "total": 217
+        "timestamp": 1788746478,
+        "total": 375,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 21,
+          "5": 200,
+          "9": 12
+        },
+        "temp_bucket": 2,
+        "timestamp": 1788748567,
+        "total": 298,
+        "window": 1
       }
     ]
   },
   "printers": {
     "default": {
+      "appearance": {
+        "toolhead_style": 2
+      },
       "default_macros": {
         "cooldown": "TURN_OFF_HEATERS",
         "load_filament": {
@@ -196,11 +260,13 @@
           "assigned": true,
           "bed_temp": 0,
           "brand": "JAYO",
+          "catalog_id": "",
           "color_rgb": 11463168,
           "material": "PETG",
           "nozzle_temp_max": 0,
           "nozzle_temp_min": 0,
-          "remaining_weight_g": 626.98779296875,
+          "product_name": "",
+          "remaining_weight_g": 0.0,
           "spool_name": "JAYO PETG - PETG",
           "spoolman_id": 47,
           "total_weight_g": 1100.0
@@ -252,30 +318,42 @@
             "heater_fan T1_hotend_fan",
             "fan_generic T2_part_fan",
             "heater_fan T2_hotend_fan",
+            "fan_generic T3_part_fan",
+            "heater_fan T3_hotend_fan",
+            "fan_generic T4_part_fan",
+            "heater_fan T4_hotend_fan",
             "heater_fan nevermore_fan",
             "temperature_fan _leviathan_mcu_fans"
           ],
           "filament_sensors": [
             "filament_switch_sensor T0_filament_sensor",
             "filament_switch_sensor T1_filament_sensor",
-            "filament_switch_sensor T2_filament_sensor"
+            "filament_switch_sensor T2_filament_sensor",
+            "filament_switch_sensor T3_filament_sensor",
+            "filament_switch_sensor T4_filament_sensor"
           ],
           "heaters": [
             "heater_bed",
             "extruder",
             "extruder1",
-            "extruder2"
+            "extruder2",
+            "extruder3",
+            "extruder4"
           ],
           "leds": [
             "neopixel _Toolhead0_LEDs",
             "neopixel _Toolhead1_LEDs",
             "neopixel _Toolhead2_LEDs",
+            "neopixel _Toolhead3_LEDs",
+            "neopixel _Toolhead4_LEDs",
             "neopixel Top_Hat_LEDs"
           ],
           "sensors": [
             "temperature_sensor T0_temp",
             "temperature_sensor T1_temp",
             "temperature_sensor T2_temp",
+            "temperature_sensor T3_temp",
+            "temperature_sensor T4_temp",
             "temperature_sensor beacon_coil",
             "tmc5160 stepper_x",
             "tmc5160 stepper_x1",
@@ -284,15 +362,19 @@
             "temperature_sensor chamber_temp",
             "temperature_fan _leviathan_mcu_fans"
           ],
-          "timestamp": "2026-07-12T16:22:08Z"
+          "timestamp": "2026-09-07T04:04:49Z"
         },
         "optional": []
       },
       "heaters": {
         "bed": "heater_bed",
+        "chamber": "none",
         "hotend": "extruder"
       },
       "leds": {
+        "auto_paired_bases": [
+          "SET_NOZZLE_LEDS"
+        ],
         "auto_state": {
           "enabled": false,
           "mappings": {
@@ -342,7 +424,16 @@
         "last_color": "#FFFFFF",
         "last_white": 1.0,
         "led_on_at_start": false,
-        "macro_devices": [],
+        "macro_devices": [
+          {
+            "name": "Set Nozzle Leds",
+            "off_macro": "SET_NOZZLE_LEDS_OFF",
+            "on_macro": "SET_NOZZLE_LEDS_ON",
+            "presets": [],
+            "toggle_macro": "",
+            "type": "on_off"
+          }
+        ],
         "selected": [],
         "selected_strips": [
           "neopixel _Toolhead0_LEDs"
@@ -426,11 +517,11 @@
                   "rowspan": 1
                 },
                 {
-                  "col": -1,
+                  "col": 2,
                   "colspan": 1,
-                  "enabled": false,
+                  "enabled": true,
                   "id": "firmware_restart",
-                  "row": -1,
+                  "row": 3,
                   "rowspan": 1
                 },
                 {
@@ -444,7 +535,7 @@
                 {
                   "col": 7,
                   "colspan": 1,
-                  "enabled": true,
+                  "enabled": false,
                   "id": "led",
                   "row": 2,
                   "rowspan": 1
@@ -677,7 +768,7 @@
                     "color": 4431943,
                     "icon": "arrow_up",
                     "macro": "UNLOAD_FILAMENT",
-                    "skip_param_prompt": true
+                    "require_confirmation": false
                   },
                   "enabled": true,
                   "id": "favorite_macro:1",
@@ -691,7 +782,7 @@
                     "color": 15022389,
                     "icon": "arrow_down",
                     "macro": "LOAD_FILAMENT",
-                    "skip_param_prompt": true
+                    "require_confirmation": false
                   },
                   "enabled": true,
                   "id": "favorite_macro:2",
@@ -705,17 +796,17 @@
                     "follow_overlay": false,
                     "sensors": [
                       {
-                        "color": 16729156,
+                        "color": 16711680,
                         "enabled": true,
                         "name": "extruder"
                       },
                       {
-                        "color": 8962256,
+                        "color": 255,
                         "enabled": true,
                         "name": "extruder1"
                       },
                       {
-                        "color": 10731148,
+                        "color": 65280,
                         "enabled": true,
                         "name": "extruder2"
                       },
@@ -765,19 +856,29 @@
                         "name": "temperature_sensor beacon_coil"
                       },
                       {
-                        "color": 11833005,
+                        "color": 16751001,
                         "enabled": false,
                         "name": "temperature_sensor T0_temp"
                       },
                       {
-                        "color": 13666160,
+                        "color": 10066431,
                         "enabled": false,
                         "name": "temperature_sensor T1_temp"
                       },
                       {
-                        "color": 6193580,
+                        "color": 10092441,
                         "enabled": false,
                         "name": "temperature_sensor T2_temp"
+                      },
+                      {
+                        "color": 12542314,
+                        "enabled": true,
+                        "name": "extruder4"
+                      },
+                      {
+                        "color": 16729156,
+                        "enabled": true,
+                        "name": "extruder3"
                       }
                     ]
                   },
@@ -791,11 +892,20 @@
                   "colspan": 1,
                   "config": {
                     "icon": "hourglass",
-                    "macro": "DOCK_ACTIVE_TOOL_AND_STANDBY"
+                    "macro": "DOCK_ACTIVE_TOOL_AND_STANDBY",
+                    "require_confirmation": false
                   },
                   "enabled": true,
                   "id": "favorite_macro:3",
                   "row": 1,
+                  "rowspan": 1
+                },
+                {
+                  "col": -1,
+                  "colspan": 1,
+                  "enabled": false,
+                  "id": "bypass",
+                  "row": -1,
                   "rowspan": 1
                 }
               ]
@@ -805,11 +915,10 @@
       },
       "printer_image": "shipped:voron-v2",
       "printer_name": "V2_Changer",
-      "probe_sensors": {
-        "sensors": null
-      },
+      "probe_sensors": {},
       "temp_sensors": {
         "bed": "heater_bed",
+        "chamber": "auto",
         "hotend": "extruder"
       },
       "type": "Voron 2.4",
@@ -817,9 +926,34 @@
     },
     "show_printer_switcher": false
   },
+  "safety": {
+    "allow_cold_extrude": true
+  },
+  "standard_macros": {
+    "bed_level": "",
+    "bed_mesh": "",
+    "cancel": "",
+    "clean_nozzle": "",
+    "heat_soak": "",
+    "load_filament": "LOAD_FILAMENT",
+    "pause": "",
+    "purge": "",
+    "resume": "",
+    "unload_filament": "UNLOAD_FILAMENT"
+  },
   "telemetry_enabled": false,
   "theme": {
     "preset": 0
+  },
+  "thermal": {
+    "rates": {
+      "extruder": {
+        "heat_rate": 0.05039551109075546
+      },
+      "heater_bed": {
+        "heat_rate": 0.6770696640014648
+      }
+    }
   },
   "tour": {
     "completed": true,
@@ -833,7 +967,7 @@
     }
   },
   "update": {
-    "dismissed_version": "0.99.87"
+    "dismissed_version": "0.99.113"
   },
   "wizard_completed": true
 }
