@@ -111,17 +111,6 @@
       },
       {
         "phases": {
-          "2": 21,
-          "5": 200,
-          "9": 12
-        },
-        "temp_bucket": 2,
-        "timestamp": 1788748567,
-        "total": 298,
-        "window": 1
-      },
-      {
-        "phases": {
           "2": 29,
           "5": 168,
           "9": 12
@@ -213,6 +202,16 @@
         "temp_bucket": 2,
         "timestamp": 1788901049,
         "total": 323,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 31,
+          "5": 216
+        },
+        "temp_bucket": 2,
+        "timestamp": 1788902314,
+        "total": 286,
         "window": 1
       }
     ]
