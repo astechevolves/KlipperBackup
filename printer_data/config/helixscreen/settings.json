@@ -56,72 +56,6 @@
     "entries": [
       {
         "phases": {
-          "2": 31,
-          "5": 380,
-          "9": 1
-        },
-        "temp_bucket": 1,
-        "timestamp": 1788878611,
-        "total": 493,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 35,
-          "5": 252,
-          "9": 1
-        },
-        "temp_bucket": 1,
-        "timestamp": 1788884451,
-        "total": 371,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 36,
-          "5": 290,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1788898278,
-        "total": 418,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 27,
-          "5": 301,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1788916045,
-        "total": 422,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 21,
-          "5": 331,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1788973401,
-        "total": 449,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 31,
-          "5": 193,
-          "9": 11
-        },
-        "temp_bucket": 2,
-        "timestamp": 1788888646,
-        "total": 295,
-        "window": 1
-      },
-      {
-        "phases": {
           "2": 13,
           "5": 193,
           "9": 11
@@ -211,6 +145,72 @@
         "temp_bucket": 2,
         "timestamp": 1788974459,
         "total": 298,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 31,
+          "5": 380,
+          "9": 1
+        },
+        "temp_bucket": 1,
+        "timestamp": 1788878611,
+        "total": 493,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 35,
+          "5": 252,
+          "9": 1
+        },
+        "temp_bucket": 1,
+        "timestamp": 1788884451,
+        "total": 371,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 36,
+          "5": 290,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1788898278,
+        "total": 418,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 27,
+          "5": 301,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1788916045,
+        "total": 422,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 21,
+          "5": 331,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1788973401,
+        "total": 449,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 34,
+          "5": 334,
+          "9": 12
+        },
+        "temp_bucket": 1,
+        "timestamp": 1788990032,
+        "total": 463,
         "window": 1
       }
     ]
@@ -961,7 +961,7 @@
         "heat_rate": 0.5805021524429321
       },
       "heater_bed": {
-        "heat_rate": 3.224062919616699
+        "heat_rate": 1.399577021598816
       }
     }
   },
