@@ -56,17 +56,6 @@
     "entries": [
       {
         "phases": {
-          "2": 13,
-          "5": 193,
-          "9": 11
-        },
-        "temp_bucket": 2,
-        "timestamp": 1788891674,
-        "total": 300,
-        "window": 1
-      },
-      {
-        "phases": {
           "2": 31,
           "5": 196
         },
@@ -211,6 +200,17 @@
         "temp_bucket": 1,
         "timestamp": 1788990032,
         "total": 463,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 22,
+          "5": 330,
+          "9": 1
+        },
+        "temp_bucket": 1,
+        "timestamp": 1789010201,
+        "total": 418,
         "window": 1
       }
     ]
@@ -487,11 +487,11 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 4,
+                  "col": 5,
                   "colspan": 1,
                   "enabled": true,
                   "id": "temperature",
-                  "row": 0,
+                  "row": 1,
                   "rowspan": 1
                 },
                 {
@@ -535,7 +535,7 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 6,
+                  "col": 5,
                   "colspan": 1,
                   "enabled": true,
                   "id": "tool_switcher",
@@ -575,11 +575,11 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 3,
+                  "col": 7,
                   "colspan": 1,
                   "enabled": true,
                   "id": "nozzle_temps",
-                  "row": 0,
+                  "row": 2,
                   "rowspan": 2
                 },
                 {
@@ -623,16 +623,16 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 5,
-                  "colspan": 1,
+                  "col": 3,
+                  "colspan": 2,
                   "enabled": true,
                   "id": "ams",
                   "row": 0,
                   "rowspan": 1
                 },
                 {
-                  "col": 5,
-                  "colspan": 1,
+                  "col": 3,
+                  "colspan": 2,
                   "enabled": true,
                   "id": "active_spool",
                   "row": 1,
@@ -745,7 +745,7 @@
                 {
                   "col": 7,
                   "colspan": 1,
-                  "enabled": true,
+                  "enabled": false,
                   "id": "notifications",
                   "row": 3,
                   "rowspan": 1
@@ -759,7 +759,7 @@
                   "rowspan": 1
                 },
                 {
-                  "col": 4,
+                  "col": 6,
                   "colspan": 1,
                   "config": {
                     "sensors": [
@@ -806,19 +806,29 @@
                     "follow_overlay": false,
                     "sensors": [
                       {
-                        "color": 16711680,
+                        "color": 16729156,
                         "enabled": true,
                         "name": "extruder"
                       },
                       {
-                        "color": 255,
+                        "color": 8962256,
                         "enabled": true,
                         "name": "extruder1"
                       },
                       {
-                        "color": 65280,
+                        "color": 10731148,
                         "enabled": true,
                         "name": "extruder2"
+                      },
+                      {
+                        "color": 16729156,
+                        "enabled": true,
+                        "name": "extruder3"
+                      },
+                      {
+                        "color": 12542314,
+                        "enabled": true,
+                        "name": "extruder4"
                       },
                       {
                         "color": 8962256,
@@ -827,7 +837,7 @@
                       },
                       {
                         "color": 10731148,
-                        "enabled": false,
+                        "enabled": true,
                         "name": "chamber"
                       },
                       {
@@ -866,29 +876,19 @@
                         "name": "temperature_sensor beacon_coil"
                       },
                       {
-                        "color": 16751001,
+                        "color": 6193580,
                         "enabled": false,
                         "name": "temperature_sensor T0_temp"
                       },
                       {
-                        "color": 10066431,
+                        "color": 12542314,
                         "enabled": false,
                         "name": "temperature_sensor T1_temp"
                       },
                       {
-                        "color": 10092441,
+                        "color": 16729156,
                         "enabled": false,
                         "name": "temperature_sensor T2_temp"
-                      },
-                      {
-                        "color": 12542314,
-                        "enabled": true,
-                        "name": "extruder4"
-                      },
-                      {
-                        "color": 16729156,
-                        "enabled": true,
-                        "name": "extruder3"
                       }
                     ]
                   },
@@ -907,7 +907,7 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:3",
-                  "row": 1,
+                  "row": 0,
                   "rowspan": 1
                 },
                 {
@@ -961,7 +961,7 @@
         "heat_rate": 0.5805021524429321
       },
       "heater_bed": {
-        "heat_rate": 1.399577021598816
+        "heat_rate": 1.3745213747024536
       }
     }
   },
