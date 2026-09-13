@@ -1,0 +1,20 @@
+{
+  "0": {
+    "remaining_weight_g": 0.0,
+    "spool_name": "JAYO PETG - Orange - Translucent",
+    "spoolman_id": 47,
+    "total_weight_g": 1100.0
+  },
+  "1": {
+    "remaining_weight_g": 0.0,
+    "spool_name": "T1",
+    "spoolman_id": 69,
+    "total_weight_g": 1000.0
+  },
+  "2": {
+    "remaining_weight_g": 0.0,
+    "spool_name": "JAYO PETG",
+    "spoolman_id": 47,
+    "total_weight_g": 1100.0
+  }
+}
