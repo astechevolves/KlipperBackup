@@ -45,6 +45,8 @@ ForgeOn runs Raspberry Pi OS Lite 64-bit on a Raspberry Pi 5.
   existing server; its database requires its own backup.
 - [KNOMI Toolchanger fork](https://github.com/astechevolves/knomi-toolchanger/tree/firmware):
   toolhead-display firmware reference; separate from the Pi installation.
+- [PrintBuddy](https://github.com/vmhomelab/printbuddy):
+  Network monitoring of various printers, files, status, etc. Overall coolness. 
 
 ### Restore Notes
 
