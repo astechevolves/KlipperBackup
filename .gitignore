@@ -5,3 +5,10 @@ secrets.conf
 printer-[0-9]*_[0-9]*.cfg
 *.bak
 *.bkp
+*.csv
+*.zip
+ShakeTune_results
+.env
+.env.*
+.ssh
+.git-credentials
