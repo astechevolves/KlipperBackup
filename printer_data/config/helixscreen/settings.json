@@ -56,6 +56,83 @@
     "entries": [
       {
         "phases": {
+          "2": 28,
+          "5": 60,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1789756373,
+        "total": 119,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 32,
+          "5": 64,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1789759256,
+        "total": 133,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 26,
+          "5": 55,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1789764009,
+        "total": 120,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 30,
+          "5": 344,
+          "9": 12
+        },
+        "temp_bucket": 1,
+        "timestamp": 1789834703,
+        "total": 432,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 31,
+          "5": 271,
+          "9": 12
+        },
+        "temp_bucket": 1,
+        "timestamp": 1789948280,
+        "total": 341,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 32,
+          "5": 376,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1790093749,
+        "total": 448,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 21,
+          "5": 330,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1790362863,
+        "total": 390,
+        "window": 1
+      },
+      {
+        "phases": {
           "2": 33,
           "5": 163
         },
@@ -131,90 +208,13 @@
       },
       {
         "phases": {
-          "2": 30,
-          "5": 95,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1789753570,
-        "total": 147,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 28,
-          "5": 60,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1789756373,
-        "total": 119,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 32,
-          "5": 64,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1789759256,
-        "total": 133,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 26,
-          "5": 55,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1789764009,
-        "total": 120,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 30,
-          "5": 344,
+          "2": 29,
+          "5": 108,
           "9": 12
         },
-        "temp_bucket": 1,
-        "timestamp": 1789834703,
-        "total": 432,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 31,
-          "5": 271,
-          "9": 12
-        },
-        "temp_bucket": 1,
-        "timestamp": 1789948280,
-        "total": 341,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 32,
-          "5": 376,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1790093749,
-        "total": 448,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 21,
-          "5": 330,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1790362863,
-        "total": 390,
+        "temp_bucket": 2,
+        "timestamp": 1790368974,
+        "total": 178,
         "window": 1
       }
     ]
