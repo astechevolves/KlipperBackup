@@ -1,9 +1,15 @@
 .env
 secrets.conf
+*.zip
+ShakeTune_results
 *.swp
 *.tmp
+.env
+.env.*
 printer-[0-9]*_[0-9]*.cfg
+.ssh
 *.bak
+.git-credentials
 *.bkp
 *.csv
 *.zip
