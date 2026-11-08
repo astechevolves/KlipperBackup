@@ -1,11 +1,15 @@
 .env
-secrets.conf
+secrets.confShakeTune_results
 *.swp
+.env
+.env.*
 *.tmp
 printer-[0-9]*_[0-9]*.cfg
 axiscope.bak
+.ssh
 *.bkp
 *.csv
+.git-credentials
 *.zip
 ShakeTune_results
 .env
