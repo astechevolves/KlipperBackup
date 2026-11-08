@@ -6,6 +6,7 @@
   "config_version": 23,
   "dark_mode": true,
   "display": {
+    "animations_enabled": true,
     "bed_mesh_render_mode": 0,
     "dim_brightness": 30,
     "dim_sec": 600,
@@ -14,7 +15,7 @@
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
     "rotate": 90,
-    "screensaver_type": 3,
+    "screensaver_type": 0,
     "sleep_sec": 1800,
     "sleep_while_printing": false,
     "time_format": 1,
@@ -54,82 +55,6 @@
   },
   "print_start_history": {
     "entries": [
-      {
-        "phases": {
-          "2": 24,
-          "5": 319,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1792769449,
-        "total": 382,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 31,
-          "5": 270,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1792974280,
-        "total": 341,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 27,
-          "5": 344,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1793328453,
-        "total": 447,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 30,
-          "5": 287,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1793375679,
-        "total": 356,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 27,
-          "5": 405
-        },
-        "temp_bucket": 1,
-        "timestamp": 1793999939,
-        "total": 515,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 33,
-          "5": 266,
-          "9": 11
-        },
-        "temp_bucket": 1,
-        "timestamp": 1794103673,
-        "total": 338,
-        "window": 1
-      },
-      {
-        "phases": {
-          "2": 32,
-          "5": 143,
-          "9": 11
-        },
-        "temp_bucket": 2,
-        "timestamp": 1790564487,
-        "total": 208,
-        "window": 1
-      },
       {
         "phases": {
           "2": 31,
@@ -214,6 +139,82 @@
         "temp_bucket": 2,
         "timestamp": 1794112046,
         "total": 258,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 24,
+          "5": 319,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1792769449,
+        "total": 382,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 31,
+          "5": 270,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1792974280,
+        "total": 341,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 27,
+          "5": 344,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1793328453,
+        "total": 447,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 30,
+          "5": 287,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1793375679,
+        "total": 356,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 27,
+          "5": 405
+        },
+        "temp_bucket": 1,
+        "timestamp": 1793999939,
+        "total": 515,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 33,
+          "5": 266,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794103673,
+        "total": 338,
+        "window": 1
+      },
+      {
+        "phases": {
+          "2": 19,
+          "5": 390,
+          "9": 11
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794148738,
+        "total": 507,
         "window": 1
       }
     ]
@@ -961,7 +962,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.20160000026226044
+        "heat_rate": 0.14614763855934143
       },
       "heater_bed": {
         "heat_rate": 2.197209358215332
