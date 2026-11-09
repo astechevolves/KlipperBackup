@@ -2,22 +2,34 @@
   "printers": {
     "default": {
       "0": {
-        "remaining_weight_g": 0.0,
-        "spool_name": "JAYO PETG - Orange - Translucent",
-        "spoolman_id": 47,
+        "remaining_weight_g": 1100.0,
+        "spool_name": "Matte White High Speed",
+        "spoolman_id": 78,
         "total_weight_g": 1100.0
       },
       "1": {
-        "remaining_weight_g": 0.0,
-        "spool_name": "Black",
-        "spoolman_id": 52,
-        "total_weight_g": 1000.0
+        "remaining_weight_g": 500.0,
+        "spool_name": "Support for PLA/PETG Nature",
+        "spoolman_id": 77,
+        "total_weight_g": 500.0
       },
       "2": {
-        "remaining_weight_g": 0.0,
-        "spool_name": "JAYO PETG",
-        "spoolman_id": 47,
+        "remaining_weight_g": 1100.0,
+        "spool_name": "Matte Pink High Speed",
+        "spoolman_id": 79,
         "total_weight_g": 1100.0
+      },
+      "3": {
+        "remaining_weight_g": 1000.0,
+        "spool_name": "Yellow",
+        "spoolman_id": 80,
+        "total_weight_g": 1000.0
+      },
+      "4": {
+        "remaining_weight_g": 300.0,
+        "spool_name": "Matte Black High Speed",
+        "spoolman_id": 81,
+        "total_weight_g": 300.0
       }
     }
   }
