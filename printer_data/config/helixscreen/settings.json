@@ -655,7 +655,7 @@
                 },
                 {
                   "col": 16,
-                  "colspan": 4,
+                  "colspan": 12,
                   "config": {
                     "follow_overlay": false,
                     "sensors": [
