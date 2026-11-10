@@ -63,16 +63,6 @@
     "entries": [
       {
         "phases": {
-          "HOMING": 27,
-          "QGL": 405
-        },
-        "temp_bucket": 1,
-        "timestamp": 1793999939,
-        "total": 515,
-        "window": 1
-      },
-      {
-        "phases": {
           "HOMING": 33,
           "PURGING": 11,
           "QGL": 266
@@ -236,6 +226,19 @@
         "timestamp": 1794330421,
         "total": 129,
         "window": 1
+      },
+      {
+        "heating": 354,
+        "phases": {
+          "BED_MESH": 59,
+          "HOMING": 31,
+          "PURGING": 11,
+          "QGL": 13
+        },
+        "temp_bucket": 1,
+        "timestamp": 1794337765,
+        "total": 322,
+        "window": 1
       }
     ]
   },
@@ -245,8 +248,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Max volumetric speed test.gcode\",\"job_id\":\"00019B\",\"object_height\":21.96,\"start_time\":1794330292.1326153}",
-        "outlines": "{\"filename\":\"Max volumetric speed test.gcode\",\"objects\":[[[84.0,122.5],[264.0,122.5],[264.0,222.5],[84.0,222.5]]]}"
+        "last_occupied": "{\"filename\":\"Pressure Advance Test.gcode\",\"job_id\":\"00019C\",\"object_height\":51.0,\"start_time\":1794337443.0019808}",
+        "outlines": "{\"filename\":\"Pressure Advance Test.gcode\",\"objects\":[[[139.0,172.5],[174.0,137.5],[209.0,172.5],[209.0,207.3],[174.0,207.5],[139.0,207.3],[139.0,172.5]]]}"
       },
       "default_macros": {
         "cooldown": "TURN_OFF_HEATERS",
@@ -472,20 +475,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 3.751944444444937
+            "used_h": 3.9169444444449626
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 3.751944444444937
+            "used_h": 3.9169444444449626
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 3.751944444444937
+            "used_h": 3.9169444444449626
           }
         },
-        "total_h": 3.751944444444937
+        "total_h": 3.9169444444449626
       },
       "moonraker_api_key": false,
       "moonraker_host": "localhost",
@@ -827,10 +830,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.22108596563339233
+        "heat_rate": 0.24212099611759186
       },
       "heater_bed": {
-        "heat_rate": 3.629793882369995
+        "heat_rate": 6.943389892578125
       }
     }
   },
