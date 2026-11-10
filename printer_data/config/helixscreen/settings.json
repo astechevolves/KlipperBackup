@@ -3,7 +3,7 @@
   "appearance": {
     "show_widget_labels": true
   },
-  "config_version": 23,
+  "config_version": 34,
   "dark_mode": true,
   "display": {
     "animations_enabled": true,
@@ -15,7 +15,7 @@
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
     "rotate": 90,
-    "screensaver_type": 0,
+    "screensaver_type": "off",
     "sleep_sec": 1800,
     "sleep_while_printing": false,
     "time_format": 1,
@@ -34,7 +34,7 @@
       "e": 0.9893877506256104,
       "f": -5.717549800872803,
       "swap_axes": false,
-      "valid": true
+      "valid": false
     },
     "force_calibration": false,
     "jitter_threshold": 5,
@@ -57,9 +57,9 @@
     "entries": [
       {
         "phases": {
-          "2": 31,
-          "5": 270,
-          "9": 11
+          "HOMING": 31,
+          "PURGING": 11,
+          "QGL": 270
         },
         "temp_bucket": 1,
         "timestamp": 1792974280,
@@ -68,9 +68,9 @@
       },
       {
         "phases": {
-          "2": 27,
-          "5": 344,
-          "9": 11
+          "HOMING": 27,
+          "PURGING": 11,
+          "QGL": 344
         },
         "temp_bucket": 1,
         "timestamp": 1793328453,
@@ -79,9 +79,9 @@
       },
       {
         "phases": {
-          "2": 30,
-          "5": 287,
-          "9": 11
+          "HOMING": 30,
+          "PURGING": 11,
+          "QGL": 287
         },
         "temp_bucket": 1,
         "timestamp": 1793375679,
@@ -90,8 +90,8 @@
       },
       {
         "phases": {
-          "2": 27,
-          "5": 405
+          "HOMING": 27,
+          "QGL": 405
         },
         "temp_bucket": 1,
         "timestamp": 1793999939,
@@ -100,9 +100,9 @@
       },
       {
         "phases": {
-          "2": 33,
-          "5": 266,
-          "9": 11
+          "HOMING": 33,
+          "PURGING": 11,
+          "QGL": 266
         },
         "temp_bucket": 1,
         "timestamp": 1794103673,
@@ -111,9 +111,9 @@
       },
       {
         "phases": {
-          "2": 19,
-          "5": 390,
-          "9": 11
+          "HOMING": 19,
+          "PURGING": 11,
+          "QGL": 390
         },
         "temp_bucket": 1,
         "timestamp": 1794148738,
@@ -122,9 +122,9 @@
       },
       {
         "phases": {
-          "2": 32,
-          "5": 212,
-          "9": 11
+          "HOMING": 32,
+          "PURGING": 11,
+          "QGL": 212
         },
         "temp_bucket": 1,
         "timestamp": 1794266921,
@@ -133,8 +133,8 @@
       },
       {
         "phases": {
-          "2": 34,
-          "5": 158
+          "HOMING": 34,
+          "QGL": 158
         },
         "temp_bucket": 2,
         "timestamp": 1792772041,
@@ -143,9 +143,9 @@
       },
       {
         "phases": {
-          "2": 29,
-          "5": 66,
-          "9": 11
+          "HOMING": 29,
+          "PURGING": 11,
+          "QGL": 66
         },
         "temp_bucket": 2,
         "timestamp": 1792985074,
@@ -154,9 +154,9 @@
       },
       {
         "phases": {
-          "2": 46,
-          "5": 181,
-          "9": 11
+          "HOMING": 46,
+          "PURGING": 11,
+          "QGL": 181
         },
         "temp_bucket": 2,
         "timestamp": 1793841320,
@@ -165,9 +165,9 @@
       },
       {
         "phases": {
-          "2": 30,
-          "5": 186,
-          "9": 11
+          "HOMING": 30,
+          "PURGING": 11,
+          "QGL": 186
         },
         "temp_bucket": 2,
         "timestamp": 1794106588,
@@ -176,8 +176,8 @@
       },
       {
         "phases": {
-          "2": 34,
-          "5": 114
+          "HOMING": 34,
+          "QGL": 114
         },
         "temp_bucket": 2,
         "timestamp": 1794107081,
@@ -186,9 +186,9 @@
       },
       {
         "phases": {
-          "2": 28,
-          "5": 152,
-          "9": 11
+          "HOMING": 28,
+          "PURGING": 11,
+          "QGL": 152
         },
         "temp_bucket": 2,
         "timestamp": 1794108572,
@@ -197,9 +197,9 @@
       },
       {
         "phases": {
-          "2": 27,
-          "5": 152,
-          "9": 11
+          "HOMING": 27,
+          "PURGING": 11,
+          "QGL": 152
         },
         "temp_bucket": 2,
         "timestamp": 1794112046,
@@ -208,9 +208,9 @@
       },
       {
         "phases": {
-          "2": 29,
-          "5": 61,
-          "9": 11
+          "HOMING": 29,
+          "PURGING": 11,
+          "QGL": 61
         },
         "temp_bucket": 2,
         "timestamp": 1794267689,
@@ -258,7 +258,7 @@
         "part": "fan_generic T0_part_fan"
       },
       "filament": {
-        "external_spool": {
+        "legacy_external_spool": {
           "assigned": true,
           "bed_temp": 0,
           "brand": "JAYO",
@@ -460,6 +460,8 @@
       "moonraker_port": 7125,
       "panel_widgets": {
         "home": {
+          "layout_units": "cells_v21",
+          "legacy_rows": 4,
           "main_page_index": 0,
           "next_page_id": 1,
           "pages": [
@@ -509,7 +511,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "lock",
                   "row": -1,
                   "rowspan": 1
@@ -517,7 +518,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "power_device",
                   "row": -1,
                   "rowspan": 1
@@ -525,7 +525,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "network",
                   "row": -1,
                   "rowspan": 1
@@ -573,7 +572,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "fan",
                   "row": -1,
                   "rowspan": 1
@@ -589,7 +587,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "chamber_temperature",
                   "row": -1,
                   "rowspan": 1
@@ -605,7 +602,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "thermistor",
                   "row": -1,
                   "rowspan": 1
@@ -613,7 +609,6 @@
                 {
                   "col": -1,
                   "colspan": 2,
-                  "enabled": false,
                   "id": "temp_graph",
                   "row": -1,
                   "rowspan": 2
@@ -621,7 +616,6 @@
                 {
                   "col": -1,
                   "colspan": 3,
-                  "enabled": false,
                   "id": "preheat",
                   "row": -1,
                   "rowspan": 1
@@ -645,7 +639,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "filament",
                   "row": -1,
                   "rowspan": 1
@@ -653,7 +646,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "humidity",
                   "row": -1,
                   "rowspan": 1
@@ -661,7 +653,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "width_sensor",
                   "row": -1,
                   "rowspan": 1
@@ -669,7 +660,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "favorite_macro",
                   "row": -1,
                   "rowspan": 1
@@ -685,7 +675,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "motion",
                   "row": -1,
                   "rowspan": 1
@@ -709,7 +698,6 @@
                 {
                   "col": -1,
                   "colspan": 2,
-                  "enabled": false,
                   "id": "job_queue",
                   "row": -1,
                   "rowspan": 2
@@ -717,7 +705,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "clog_detection",
                   "row": -1,
                   "rowspan": 1
@@ -725,7 +712,6 @@
                 {
                   "col": -1,
                   "colspan": 2,
-                  "enabled": false,
                   "id": "print_stats",
                   "row": -1,
                   "rowspan": 2
@@ -733,7 +719,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "gcode_console",
                   "row": -1,
                   "rowspan": 1
@@ -741,7 +726,6 @@
                 {
                   "col": -1,
                   "colspan": 2,
-                  "enabled": false,
                   "id": "camera",
                   "row": -1,
                   "rowspan": 2
@@ -917,7 +901,6 @@
                 {
                   "col": -1,
                   "colspan": 1,
-                  "enabled": false,
                   "id": "bypass",
                   "row": -1,
                   "rowspan": 1
@@ -973,13 +956,7 @@
     "completed": true,
     "last_seen_version": 1
   },
-  "ui": {
-    "cached_grid": {
-      "home": {
-        "rows": 4
-      }
-    }
-  },
+  "ui": {},
   "update": {
     "channel": 1,
     "dismissed_version": "1.0.8"
