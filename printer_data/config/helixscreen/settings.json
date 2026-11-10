@@ -565,12 +565,12 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 28,
-                  "colspan": 2,
+                  "col": 23,
+                  "colspan": 3,
                   "enabled": true,
                   "id": "nozzle_temps",
-                  "row": 6,
-                  "rowspan": 4
+                  "row": 5,
+                  "rowspan": 5
                 },
                 {
                   "col": 11,
