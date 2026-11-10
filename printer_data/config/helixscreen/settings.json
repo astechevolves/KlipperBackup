@@ -534,7 +534,7 @@
                 },
                 {
                   "col": 19,
-                  "colspan": 4,
+                  "colspan": 7,
                   "enabled": true,
                   "id": "tool_switcher",
                   "row": 0,
