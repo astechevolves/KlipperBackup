@@ -21,7 +21,7 @@
     "gpu_3d_blocked": false,
     "gpu_blur_blocked": false,
     "rotate": 90,
-    "screensaver_type": "off",
+    "screensaver_type": "random",
     "sleep_sec": 1800,
     "sleep_while_printing": false,
     "time_format": 1,
