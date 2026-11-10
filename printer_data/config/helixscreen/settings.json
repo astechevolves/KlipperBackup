@@ -752,7 +752,7 @@
                   "rowspan": 5
                 },
                 {
-                  "col": 24,
+                  "col": 26,
                   "colspan": 2,
                   "config": {
                     "icon": "hourglass",
@@ -761,7 +761,7 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:3",
-                  "row": 3,
+                  "row": 0,
                   "rowspan": 1
                 },
                 {
