@@ -654,7 +654,7 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 16,
+                  "col": 11,
                   "colspan": 12,
                   "config": {
                     "follow_overlay": false,
@@ -748,8 +748,8 @@
                   },
                   "enabled": true,
                   "id": "temp_graph:1",
-                  "row": 6,
-                  "rowspan": 4
+                  "row": 5,
+                  "rowspan": 5
                 },
                 {
                   "col": 5,
