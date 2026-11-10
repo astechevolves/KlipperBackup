@@ -650,8 +650,8 @@
                   },
                   "enabled": true,
                   "id": "favorite_macro:2",
-                  "row": 3,
-                  "rowspan": 2
+                  "row": 5,
+                  "rowspan": 3
                 },
                 {
                   "col": 11,
