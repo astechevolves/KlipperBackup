@@ -613,7 +613,7 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 23,
+                  "col": 26,
                   "colspan": 3,
                   "config": {
                     "sensors": [
@@ -622,7 +622,7 @@
                   },
                   "enabled": true,
                   "id": "thermistor:1",
-                  "row": 3,
+                  "row": 0,
                   "rowspan": 2
                 },
                 {
