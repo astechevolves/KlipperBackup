@@ -22,7 +22,7 @@
     "gpu_blur_blocked": false,
     "rotate": 90,
     "screensaver_type": "random",
-    "sleep_sec": 1800,
+    "sleep_sec": 3600,
     "sleep_while_printing": false,
     "time_format": 1,
     "timezone": "America/Chicago"
