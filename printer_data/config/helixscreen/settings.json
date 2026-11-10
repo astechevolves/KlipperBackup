@@ -63,17 +63,6 @@
     "entries": [
       {
         "phases": {
-          "HOMING": 31,
-          "PURGING": 11,
-          "QGL": 270
-        },
-        "temp_bucket": 1,
-        "timestamp": 1792974280,
-        "total": 341,
-        "window": 1
-      },
-      {
-        "phases": {
           "HOMING": 27,
           "PURGING": 11,
           "QGL": 344
@@ -222,6 +211,19 @@
         "timestamp": 1794267689,
         "total": 125,
         "window": 1
+      },
+      {
+        "heating": 101,
+        "phases": {
+          "BED_MESH": 68,
+          "HOMING": 27,
+          "PURGING": 11,
+          "QGL": 13
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794272358,
+        "total": 174,
+        "window": 1
       }
     ]
   },
@@ -231,7 +233,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Nozzle temperature test.gcode\",\"job_id\":\"000191\",\"object_height\":50.0,\"start_time\":1794267563.9460356}"
+        "last_occupied": "{\"filename\":\"Max volumetric speed test.gcode\",\"job_id\":\"000192\",\"object_height\":21.96,\"start_time\":1794272184.0680962}",
+        "outlines": "{\"filename\":\"Max volumetric speed test.gcode\",\"objects\":[[[84.0,122.5],[264.0,122.5],[264.0,222.5],[84.0,222.5]]]}"
       },
       "default_macros": {
         "cooldown": "TURN_OFF_HEATERS",
@@ -457,20 +460,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 0.0
+            "used_h": 0.22499999999999615
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 0.0
+            "used_h": 0.22499999999999615
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 0.0
+            "used_h": 0.22499999999999615
           }
         },
-        "total_h": 0.0
+        "total_h": 0.22499999999999615
       },
       "moonraker_api_key": false,
       "moonraker_host": "localhost",
@@ -812,10 +815,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.3031035363674164
+        "heat_rate": 0.2625626027584076
       },
       "heater_bed": {
-        "heat_rate": 2.197209358215332
+        "heat_rate": 7.883219242095947
       }
     }
   },
