@@ -589,7 +589,7 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 20,
+                  "col": 0,
                   "colspan": 4,
                   "enabled": true,
                   "id": "control_buttons",
