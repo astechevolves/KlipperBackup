@@ -614,7 +614,7 @@
                 },
                 {
                   "col": 4,
-                  "colspan": 4,
+                  "colspan": 2,
                   "config": {
                     "sensors": [
                       "temperature_sensor chamber_temp"
