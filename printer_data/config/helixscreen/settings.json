@@ -510,7 +510,7 @@
                 },
                 {
                   "col": 19,
-                  "colspan": 4,
+                  "colspan": 2,
                   "enabled": true,
                   "id": "temperature",
                   "row": 3,
