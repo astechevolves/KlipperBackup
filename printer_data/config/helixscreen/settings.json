@@ -752,7 +752,7 @@
                   "rowspan": 5
                 },
                 {
-                  "col": 5,
+                  "col": 6,
                   "colspan": 2,
                   "config": {
                     "icon": "hourglass",
