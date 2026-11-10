@@ -573,11 +573,11 @@
                   "rowspan": 4
                 },
                 {
-                  "col": 26,
+                  "col": 14,
                   "colspan": 2,
                   "enabled": true,
                   "id": "ams",
-                  "row": 8,
+                  "row": 1,
                   "rowspan": 2
                 },
                 {
