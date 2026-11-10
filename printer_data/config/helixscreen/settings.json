@@ -623,7 +623,7 @@
                   "enabled": true,
                   "id": "thermistor:1",
                   "row": 0,
-                  "rowspan": 3
+                  "rowspan": 2
                 },
                 {
                   "col": 26,
