@@ -765,11 +765,11 @@
                   "rowspan": 2
                 },
                 {
-                  "col": 12,
+                  "col": -1,
                   "colspan": 2,
-                  "enabled": true,
+                  "enabled": false,
                   "id": "filament",
-                  "row": 5,
+                  "row": -1,
                   "rowspan": 2
                 }
               ]
