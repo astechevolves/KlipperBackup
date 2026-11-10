@@ -753,7 +753,7 @@
                 },
                 {
                   "col": 26,
-                  "colspan": 2,
+                  "colspan": 4,
                   "config": {
                     "icon": "hourglass",
                     "macro": "DOCK_ACTIVE_TOOL_AND_STANDBY",
@@ -762,7 +762,7 @@
                   "enabled": true,
                   "id": "favorite_macro:3",
                   "row": 0,
-                  "rowspan": 1
+                  "rowspan": 4
                 },
                 {
                   "col": -1,
