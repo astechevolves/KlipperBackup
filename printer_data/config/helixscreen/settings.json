@@ -529,11 +529,11 @@
                   "rowspan": 4
                 },
                 {
-                  "col": 19,
+                  "col": -1,
                   "colspan": 2,
-                  "enabled": true,
+                  "enabled": false,
                   "id": "temperature",
-                  "row": 3,
+                  "row": -1,
                   "rowspan": 2
                 },
                 {
