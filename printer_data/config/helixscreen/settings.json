@@ -558,7 +558,7 @@
                   "enabled": true,
                   "id": "tool_switcher",
                   "row": 0,
-                  "rowspan": 3
+                  "rowspan": 4
                 },
                 {
                   "col": -1,
