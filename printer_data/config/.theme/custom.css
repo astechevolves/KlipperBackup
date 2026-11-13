@@ -1,20 +1,12 @@
 /* ForgeOn: Mainsail tool buttons (T0-T4)
  *
- * Mainsail colors each tool's dot from its Spoolman spool, or from the T<n>
- * macro's lane color when no spool is assigned. This draws a black bar across
- * the dot when it's showing a lane color, so a barred dot = no spool.
- *
- * The lane colors are shifted one blue step from the LED palette (by
- * RESET_TOOLHEAD_LANE_COLORS in Neopixel_Control.cfg) so they never equal a
- * real spool color. If a lane's palette color changes, update its line here.
- * Browsers store the dot color as rgb(), which is what these match.
+ * Mainsail colors each tool's dot from its Spoolman spool. With no spool it
+ * falls back to the T<n> macro's color, which is set to FFFFFE (the "unloaded"
+ * marker, by RESET_TOOLHEAD_LANE_COLORS and variable_color). This draws a
+ * black bar across that dot: white with a bar = no spool loaded.
+ * Browsers store the dot color as rgb(), which is what this matches.
  */
-span._extruderColorState[style*="rgb(255, 0, 1)"],     /* T0 red    FF0001 */
-span._extruderColorState[style*="rgb(0, 0, 254)"],     /* T1 blue   0000FE */
-span._extruderColorState[style*="rgb(0, 255, 1)"],     /* T2 green  00FF01 */
-span._extruderColorState[style*="rgb(255, 62, 1)"],    /* T3 orange FF3E01 */
-span._extruderColorState[style*="rgb(255, 255, 254)"]  /* T4 white  FFFFFE */ {
-    /* one black bar across the dot, white edges so it shows on any color */
+span._extruderColorState[style*="rgb(255, 255, 254)"] {
     background-image: linear-gradient(135deg,
         transparent 36%, #fff 36% 41%, #000 41% 59%, #fff 59% 64%,
         transparent 64%) !important;
