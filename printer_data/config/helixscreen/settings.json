@@ -278,6 +278,7 @@
           "label": "Unload Active Head"
         }
       },
+      "enclosure_style": 1,
       "extra_sensors": {},
       "fans": {
         "chamber": "heater_fan nevermore_fan",
