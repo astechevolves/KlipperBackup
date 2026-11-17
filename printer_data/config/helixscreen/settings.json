@@ -399,7 +399,9 @@
           ],
           "timestamp": "2026-11-13T14:17:01Z"
         },
-        "optional": []
+        "optional": [
+          "fan_generic T3_part_fan"
+        ]
       },
       "heaters": {
         "bed": "heater_bed",
