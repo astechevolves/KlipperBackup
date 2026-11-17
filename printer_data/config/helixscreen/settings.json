@@ -258,7 +258,7 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"马里奥问号笔盒_铅笔盒_牙膏收纳_笔收纳桶.gcode\",\"job_id\":\"0001A0\",\"object_height\":100.0,\"start_time\":1794839376.2054303}",
+        "last_occupied": "{\"filename\":\"Bumble_(Abominable_Snowman)_sitting_down.gcode\",\"job_id\":\"0001A1\",\"object_height\":150.0,\"start_time\":1794925666.0012596}",
         "outlines": "{\"filename\":\"马里奥问号笔盒_铅笔盒_牙膏收纳_笔收纳桶.gcode\",\"objects\":[[[130.5,121.5],[133.0,119.0],[228.1,119.1],[230.5,121.5],[230.5,216.5],[228.0,219.0],[133.0,219.0],[130.5,216.5],[130.5,121.5]]]}"
       },
       "default_macros": {
@@ -400,7 +400,7 @@
             "temperature_sensor chamber_temp",
             "temperature_fan _leviathan_mcu_fans"
           ],
-          "timestamp": "2026-11-17T03:03:14Z"
+          "timestamp": "2026-11-17T16:40:37Z"
         },
         "optional": [
           "fan_generic T3_part_fan",
