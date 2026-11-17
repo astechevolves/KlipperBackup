@@ -400,7 +400,10 @@
           "timestamp": "2026-11-13T14:17:01Z"
         },
         "optional": [
-          "fan_generic T3_part_fan"
+          "fan_generic T3_part_fan",
+          "heater_fan T3_hotend_fan",
+          "fan_generic T4_part_fan",
+          "heater_fan T4_hotend_fan"
         ]
       },
       "heaters": {
