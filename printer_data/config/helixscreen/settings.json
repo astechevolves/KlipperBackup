@@ -62,19 +62,6 @@
   "print_start_history": {
     "entries": [
       {
-        "heating": 101,
-        "phases": {
-          "BED_MESH": 68,
-          "HOMING": 27,
-          "PURGING": 11,
-          "QGL": 13
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794272358,
-        "total": 174,
-        "window": 1
-      },
-      {
         "heating": 69,
         "phases": {
           "HOMING": 30,
@@ -249,6 +236,19 @@
         "timestamp": 1794926068,
         "total": 402,
         "window": 1
+      },
+      {
+        "heating": 85,
+        "phases": {
+          "BED_MESH": 68,
+          "HOMING": 16,
+          "PURGING": 12,
+          "QGL": 13
+        },
+        "temp_bucket": 2,
+        "timestamp": 1794934578,
+        "total": 306,
+        "window": 1
       }
     ]
   },
@@ -258,8 +258,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Bumble_(Abominable_Snowman)_sitting_down.gcode\",\"job_id\":\"0001A1\",\"object_height\":150.0,\"start_time\":1794925666.0012596}",
-        "outlines": "{\"filename\":\"马里奥问号笔盒_铅笔盒_牙膏收纳_笔收纳桶.gcode\",\"objects\":[[[130.5,121.5],[133.0,119.0],[228.1,119.1],[230.5,121.5],[230.5,216.5],[228.0,219.0],[133.0,219.0],[130.5,216.5],[130.5,121.5]]]}"
+        "last_occupied": "{\"filename\":\"Bumble_(Abominable_Snowman)_sitting_down.gcode\",\"job_id\":\"0001A2\",\"object_height\":150.0,\"start_time\":1794934271.7824214}",
+        "outlines": "{\"filename\":\"Bumble_(Abominable_Snowman)_sitting_down.gcode\",\"objects\":[[[165.1,118.2],[303.0,118.2],[303.0,248.9],[165.1,248.9]]]}"
       },
       "default_macros": {
         "cooldown": "TURN_OFF_HEATERS",
@@ -493,20 +493,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 23.151944444445256
+            "used_h": 28.679444444463794
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 23.151944444445256
+            "used_h": 28.679444444463794
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 23.151944444445256
+            "used_h": 28.679444444463794
           }
         },
-        "total_h": 23.151944444445256
+        "total_h": 28.679444444463794
       },
       "moonraker_api_key": false,
       "moonraker_host": "localhost",
@@ -848,7 +848,7 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.20587408542633057
+        "heat_rate": 0.18441987037658691
       },
       "heater_bed": {
         "heat_rate": 5.790133953094482
