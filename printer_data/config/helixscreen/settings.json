@@ -402,7 +402,7 @@
             "temperature_sensor chamber_temp",
             "temperature_fan _leviathan_mcu_fans"
           ],
-          "timestamp": "2026-11-20T13:35:26Z"
+          "timestamp": "2026-11-20T16:52:56Z"
         },
         "optional": [
           "fan_generic T3_part_fan",
