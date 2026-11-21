@@ -62,19 +62,6 @@
   "print_start_history": {
     "entries": [
       {
-        "heating": 123,
-        "phases": {
-          "BED_MESH": 53,
-          "HOMING": 31,
-          "PURGING": 11,
-          "QGL": 17
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794327538,
-        "total": 193,
-        "window": 1
-      },
-      {
         "heating": 48,
         "phases": {
           "HOMING": 28,
@@ -252,6 +239,18 @@
         "timestamp": 1795216302,
         "total": 140,
         "window": 1
+      },
+      {
+        "heating": 219,
+        "phases": {
+          "HOMING": 27,
+          "PURGING": 11,
+          "QGL": 141
+        },
+        "temp_bucket": 1,
+        "timestamp": 1795233275,
+        "total": 357,
+        "window": 1
       }
     ]
   },
@@ -261,7 +260,7 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Light_House_Mandala_3D_Wall_Art.gcode\",\"job_id\":\"0001AA\",\"object_height\":10.0,\"start_time\":1795232539.6724198}",
+        "last_occupied": "{\"filename\":\"Light_House_Mandala_3D_Wall_Art.gcode\",\"job_id\":\"0001AB\",\"object_height\":10.0,\"start_time\":1795232917.5971448}",
         "outlines": "{\"filename\":\"Light_House_Mandala_3D_Wall_Art.gcode\",\"objects\":[[[140.9,101.1],[287.9,101.1],[287.9,248.1],[140.9,248.1]]]}"
       },
       "default_macros": {
@@ -496,20 +495,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 46.11999999989726
+            "used_h": 50.27249999985808
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 46.11999999989726
+            "used_h": 50.27249999985808
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 46.11999999989726
+            "used_h": 50.27249999985808
           }
         },
-        "total_h": 46.11999999989726
+        "total_h": 50.27249999985808
       },
       "moonraker_api_key": false,
       "moonraker_host": "localhost",
@@ -854,10 +853,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.22341839969158173
+        "heat_rate": 0.18366073071956635
       },
       "heater_bed": {
-        "heat_rate": 7.896327972412109
+        "heat_rate": 7.258007526397705
       }
     }
   },
