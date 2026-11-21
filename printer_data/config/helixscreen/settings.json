@@ -261,8 +261,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Yoda_Grogu_de_Noël_NO_AMS_.gcode\",\"job_id\":\"0001A9\",\"object_height\":66.2,\"start_time\":1795216161.650401}",
-        "outlines": "{\"filename\":\"Yoda_Grogu_de_Noël_NO_AMS_.gcode\",\"objects\":[[[185.3,135.9],[254.0,135.9],[254.0,229.8],[185.3,229.8]],[[94.0,153.9],[161.3,153.9],[161.3,229.8],[94.0,229.8]],[[142.6,115.3],[165.0,115.2],[165.1,132.8],[142.7,132.9],[142.6,115.3]]]}"
+        "last_occupied": "{\"filename\":\"Light_House_Mandala_3D_Wall_Art.gcode\",\"job_id\":\"0001AA\",\"object_height\":10.0,\"start_time\":1795232539.6724198}",
+        "outlines": "{\"filename\":\"Light_House_Mandala_3D_Wall_Art.gcode\",\"objects\":[[[140.9,101.1],[287.9,101.1],[287.9,248.1],[140.9,248.1]]]}"
       },
       "default_macros": {
         "cooldown": "TURN_OFF_HEATERS",
