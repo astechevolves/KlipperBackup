@@ -260,8 +260,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Light_House_Mandala_3D_Wall_Art.gcode\",\"job_id\":\"0001AB\",\"object_height\":10.0,\"start_time\":1795232917.5971448}",
-        "outlines": "{\"filename\":\"Light_House_Mandala_3D_Wall_Art.gcode\",\"objects\":[[[140.9,101.1],[287.9,101.1],[287.9,248.1],[140.9,248.1]]]}"
+        "last_occupied": "{\"filename\":\"Butterfly_Mandala_Wall_Art_-_Version_2.gcode\",\"job_id\":\"0001AC\",\"object_height\":12.4,\"start_time\":1795275901.00948}",
+        "outlines": "{\"filename\":\"Butterfly_Mandala_Wall_Art_-_Version_2.gcode\",\"objects\":[[[84.7,287.6],[84.9,286.3],[138.6,111.1],[139.0,109.6],[140.0,108.4],[141.0,107.5],[142.2,106.9],[143.6,106.5],[145.1,106.4],[264.4,106.4],[265.8,106.5],[267.2,106.9],[268.5,107.5],[269.5,108.4],[270.4,109.6],[270.9,111.1],[324.5,286.3],[324.7,288.8],[324.5,290.1],[324.1,291.2],[323.4,292.2],[322.0,293.3],[321.0,293.6],[319.9,293.8],[89.6,293.8],[88.5,293.6],[87.5,293.3],[86.1,292.2],[85.4,291.2],[85.0,290.1],[84.7,288.8],[84.7,287.6]]]}"
       },
       "default_macros": {
         "cooldown": "TURN_OFF_HEATERS",
