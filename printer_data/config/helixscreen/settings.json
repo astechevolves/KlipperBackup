@@ -62,18 +62,6 @@
   "print_start_history": {
     "entries": [
       {
-        "heating": 48,
-        "phases": {
-          "HOMING": 28,
-          "PURGING": 11,
-          "QGL": 47
-        },
-        "temp_bucket": 2,
-        "timestamp": 1794330421,
-        "total": 129,
-        "window": 1
-      },
-      {
         "heating": 311,
         "phases": {
           "BED_MESH": 45,
@@ -251,6 +239,18 @@
         "timestamp": 1795276758,
         "total": 645,
         "window": 1
+      },
+      {
+        "heating": 266,
+        "phases": {
+          "HOMING": 30,
+          "PURGING": 11,
+          "QGL": 63
+        },
+        "temp_bucket": 2,
+        "timestamp": 1795311295,
+        "total": 305,
+        "window": 1
       }
     ]
   },
@@ -260,8 +260,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Butterfly_Mandala_Wall_Art_-_Version_2.gcode\",\"job_id\":\"0001AD\",\"object_height\":12.4,\"start_time\":1795276112.779945}",
-        "outlines": "{\"filename\":\"Butterfly_Mandala_Wall_Art_-_Version_2.gcode\",\"objects\":[[[84.7,287.6],[84.9,286.3],[138.6,111.1],[139.0,109.6],[140.0,108.4],[141.0,107.5],[142.2,106.9],[143.6,106.5],[145.1,106.4],[264.4,106.4],[265.8,106.5],[267.2,106.9],[268.5,107.5],[269.5,108.4],[270.4,109.6],[270.9,111.1],[324.5,286.3],[324.7,288.8],[324.5,290.1],[324.1,291.2],[323.4,292.2],[322.0,293.3],[321.0,293.6],[319.9,293.8],[89.6,293.8],[88.5,293.6],[87.5,293.3],[86.1,292.2],[85.4,291.2],[85.0,290.1],[84.7,288.8],[84.7,287.6]]]}"
+        "last_occupied": "{\"filename\":\"Moai_Incense_holder_The_Original.gcode\",\"job_id\":\"0001AE\",\"object_height\":103.6,\"start_time\":1795310990.6817904}",
+        "outlines": "{\"filename\":\"Moai_Incense_holder_The_Original.gcode\",\"objects\":[[[54.4,47.9],[293.6,47.9],[293.6,297.1],[54.4,297.1]]]}"
       },
       "default_macros": {
         "cooldown": "TURN_OFF_HEATERS",
@@ -495,20 +495,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 58.964444444220504
+            "used_h": 64.16694444417568
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 58.964444444220504
+            "used_h": 64.16694444417568
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 58.964444444220504
+            "used_h": 64.16694444417568
           }
         },
-        "total_h": 58.964444444220504
+        "total_h": 64.16694444417568
       },
       "moonraker_api_key": false,
       "moonraker_host": "localhost",
@@ -853,10 +853,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.2051873803138733
+        "heat_rate": 0.22334611415863037
       },
       "heater_bed": {
-        "heat_rate": 7.314266681671143
+        "heat_rate": 6.890042781829834
       }
     }
   },
