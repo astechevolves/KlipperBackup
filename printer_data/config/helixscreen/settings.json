@@ -62,19 +62,6 @@
   "print_start_history": {
     "entries": [
       {
-        "heating": 586,
-        "phases": {
-          "BED_MESH": 71,
-          "HOMING": 32,
-          "PURGING": 12,
-          "QGL": 15
-        },
-        "temp_bucket": 1,
-        "timestamp": 1795015556,
-        "total": 557,
-        "window": 1
-      },
-      {
         "heating": 485,
         "phases": {
           "BED_MESH": 56,
@@ -244,6 +231,18 @@
         "timestamp": 1795465868,
         "total": 461,
         "window": 1
+      },
+      {
+        "heating": 431,
+        "phases": {
+          "HOMING": 31,
+          "PURGING": 11,
+          "QGL": 42
+        },
+        "temp_bucket": 1,
+        "timestamp": 1795481571,
+        "total": 461,
+        "window": 1
       }
     ]
   },
@@ -253,8 +252,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"DUCK_10_MIN_TEST_PRINT_.gcode\",\"job_id\":\"0001B4\",\"object_height\":14.0,\"start_time\":1795465407.0555255}",
-        "outlines": "{\"filename\":\"DUCK_10_MIN_TEST_PRINT_.gcode\",\"objects\":[[[167.9,173.5],[168.1,171.5],[169.5,167.2],[173.0,161.3],[173.7,160.8],[174.3,160.8],[175.2,161.7],[178.5,167.2],[179.6,170.6],[180.0,172.5],[180.0,174.5],[179.0,178.9],[178.5,180.3],[177.7,181.6],[176.2,183.5],[175.1,184.1],[173.5,184.2],[172.3,183.8],[171.4,183.1],[170.3,181.6],[169.5,180.3],[169.0,178.9],[168.1,175.5],[167.9,173.5]]]}"
+        "last_occupied": "{\"filename\":\"Christmas_snowflake_ornament_9.gcode\",\"job_id\":\"0001B5\",\"object_height\":2.0,\"start_time\":1795481110.6177611}",
+        "outlines": "{\"filename\":\"Christmas_snowflake_ornament_9.gcode\",\"objects\":[[[124.0,199.4],[124.2,141.5],[173.7,113.4],[174.3,113.2],[223.9,141.9],[224.0,199.3],[175.3,231.5],[174.1,231.8],[172.8,231.5],[124.0,199.4]]]}"
       },
       "default_macros": {
         "cooldown": "TURN_OFF_HEATERS",
@@ -488,20 +487,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 69.4749999998129
+            "used_h": 70.36499999982726
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 69.4749999998129
+            "used_h": 70.36499999982726
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 69.4749999998129
+            "used_h": 70.36499999982726
           }
         },
-        "total_h": 69.4749999998129
+        "total_h": 70.36499999982726
       },
       "moonraker_api_key": false,
       "moonraker_host": "localhost",
@@ -846,10 +845,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.20785173773765564
+        "heat_rate": 0.21846728026866913
       },
       "heater_bed": {
-        "heat_rate": 7.273229598999023
+        "heat_rate": 7.43134880065918
       }
     }
   },
