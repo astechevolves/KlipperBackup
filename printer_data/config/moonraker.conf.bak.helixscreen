@@ -117,7 +117,7 @@ managed_services: axiscope
 
 [update_manager helixscreen]
 type: web
-channel: stable
+channel: beta
 repo: prestonbrown/helixscreen
 path: /home/goofballtech/helixscreen
 
