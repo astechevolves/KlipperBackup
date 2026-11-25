@@ -62,19 +62,6 @@
   "print_start_history": {
     "entries": [
       {
-        "heating": 222,
-        "phases": {
-          "BED_MESH": 76,
-          "HOMING": 35,
-          "PURGING": 11,
-          "QGL": 18
-        },
-        "temp_bucket": 2,
-        "timestamp": 1795198485,
-        "total": 192,
-        "window": 1
-      },
-      {
         "heating": 155,
         "phases": {
           "HOMING": 29,
@@ -241,6 +228,19 @@
         "timestamp": 1795579709,
         "total": 123,
         "window": 1
+      },
+      {
+        "heating": 98,
+        "phases": {
+          "BED_MESH": 67,
+          "HOMING": 30,
+          "PURGING": 11,
+          "QGL": 12
+        },
+        "temp_bucket": 1,
+        "timestamp": 1795616995,
+        "total": 170,
+        "window": 1
       }
     ]
   },
@@ -250,8 +250,8 @@
         "toolhead_style": 2
       },
       "bed_occupancy": {
-        "last_occupied": "{\"filename\":\"Nozzle temperature test.gcode\",\"job_id\":\"0001B8\",\"object_height\":50.0,\"start_time\":1795579586.4751484}",
-        "outlines": "{\"filename\":\"Nozzle temperature test.gcode\",\"objects\":[[[151.8,167.5],[192.6,167.6],[193.7,167.9],[194.7,168.4],[195.5,169.2],[196.2,170.2],[196.3,174.7],[195.5,175.8],[194.5,176.6],[193.3,177.2],[192.1,177.5],[151.8,177.5],[151.8,167.5]]]}"
+        "last_occupied": "{\"filename\":\"Max volumetric speed test.gcode\",\"job_id\":\"0001B9\",\"object_height\":15.88,\"start_time\":1795616825.2956479}",
+        "outlines": "{\"filename\":\"Max volumetric speed test.gcode\",\"objects\":[[[84.0,122.5],[264.0,122.5],[264.0,222.5],[84.0,222.5]]]}"
       },
       "default_macros": {
         "cooldown": "TURN_OFF_HEATERS",
@@ -485,20 +485,20 @@
           "filter": {
             "interval_h": 200,
             "notified": false,
-            "used_h": 71.91527777763007
+            "used_h": 72.49666666652834
           },
           "nozzle": {
             "interval_h": 500,
             "notified": false,
-            "used_h": 71.91527777763007
+            "used_h": 72.49666666652834
           },
           "rails": {
             "interval_h": 300,
             "notified": false,
-            "used_h": 71.91527777763007
+            "used_h": 72.49666666652834
           }
         },
-        "total_h": 71.91527777763007
+        "total_h": 72.49666666652834
       },
       "moonraker_api_key": false,
       "moonraker_host": "localhost",
@@ -843,10 +843,10 @@
   "thermal": {
     "rates": {
       "extruder": {
-        "heat_rate": 0.1897106170654297
+        "heat_rate": 0.18583783507347107
       },
       "heater_bed": {
-        "heat_rate": 7.43134880065918
+        "heat_rate": 4.104528903961182
       }
     }
   },
