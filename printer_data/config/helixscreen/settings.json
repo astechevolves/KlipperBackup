@@ -3,7 +3,7 @@
   "appearance": {
     "show_widget_labels": true
   },
-  "config_version": 34,
+  "config_version": 35,
   "dark_mode": true,
   "display": {
     "animations_enabled": true,
@@ -394,7 +394,7 @@
             "temperature_sensor chamber_temp",
             "temperature_fan _leviathan_mcu_fans"
           ],
-          "timestamp": "2026-11-25T02:10:35Z"
+          "timestamp": "2026-11-25T02:10:51Z"
         },
         "optional": [
           "fan_generic T3_part_fan",
