@@ -57,7 +57,7 @@
   "log_level": "debug",
   "log_path": "/tmp/helixscreen.log",
   "motion": {
-    "jog_mode": 0
+    "jog_mode": 2
   },
   "print_start_history": {
     "entries": [
